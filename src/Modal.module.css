@@ -1,0 +1,48 @@
+.container {
+  position: absolute;
+  inset: 0;
+  background-color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  width: 70vw;
+  /* border: 2px solid var(--secondary); */
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: -10px -10.98px 19.25px -5.12px rgba(255, 255, 255, 0.1),
+    inset 5px 8.66px 13.66px -1.71px rgba(255, 255, 255, 0.15),
+    inset -7.5px -12.99px 13.66px -1.71px rgba(0, 0, 0, 0.2),
+    10px 10.98px 10.25px -5.12px rgba(0, 0, 0, 0.4);
+}
+
+.modal > p {
+  color: var(--tertiary);
+}
+
+.cta__container {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.cta__container > button {
+  width: calc(50% - 0.5rem);
+  padding: 0.5rem;
+  border-radius: 6px;
+  background-color: transparent;
+  color: var(--tertiary);
+  border: 2px solid var(--tertiary);
+}
+
+.cta__container > .yes {
+  background-color: var(--tertiary);
+  color: var(--primary-dark);
+  font-weight: 700;
+}
