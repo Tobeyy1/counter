@@ -3,8 +3,8 @@
   "name": "Counter App",
   "icons": [
     {
-      "src": "./images/icon.png",
-      "type": "image/png",
+      "src": "./images/icon.jpg",
+      "type": "image/jpg",
       "sizes": "1024x1024",
       "purpose": "any maskable"
     }
